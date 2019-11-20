@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dalton Proxify</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lumen/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iqcNtN3rj6Y1HX/R0a3zu3ngmbdwEa9qQGHdkXwSRoiE+Gj71p0UNDSm99LcXiXV" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Dalton Proxify</h1>
+        <p class="lead">Access academic articles for free through Dalton's website</p>
+        <a class="btn btn-lg btn-primary" id="bookmarklet"
+            href="javascript:url%20=%20window.location.href;%20window.open('https://ezproxy.dalton.org/login?url='%20+%20url,'_self')"
+            data-toggle="tooltip" data-placement="top" title="Drag to your bookmarks bar">DaltonProxify</a>
+        <h1 class="arrow"><i class="fa fa-long-arrow-up"></i></h1>
+        <p>Drag the button to your bookmarks bar to install DaltonProxify.</p>
+        <hr />
+        <p>Don't have a bookmark bar? Enable it in <a
+                href="https://support.mozilla.org/en-US/kb/bookmarks-toolbar-display-favorite-websites">Mozilla
+                Firefox</a>, <a
+                href="https://support.google.com/chrome/answer/188842?co=GENIE.Platform%3DDesktop&hl=en">Google
+                Chrome</a>, <a href="https://support.apple.com/guide/safari/see-your-favorite-websites-sfri22092/mac">
+                Safari</a>, or
+            <a href="https://support.microsoft.com/en-us/help/4028699">Microsoft Edge</a>
+        </p>
+        <hr />
+        <p>Created by William Barkoff in New York City. CC0 License, No Rights Reserved.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.3.2/bootbox.min.js"
+        integrity="sha256-s87nschhfp/x1/4+QUtIa99el2ot5IMQLrumROuHZbc=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
