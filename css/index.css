@@ -1,5 +1,5 @@
-body {
-    min-height: 100vh;
+.page-wrapper {
+    min-height: calc(100vh - 57px);
     min-width: 100vw;
     display: flex;
     justify-content: center;

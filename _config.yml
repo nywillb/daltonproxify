@@ -1,0 +1,10 @@
+title: LibraryProxify
+
+copyright: Created by William Barkoff in New York City. CC0 License, No Rights Reserved.
+
+collections:
+  libraries:
+    output: true
+    permalink: /library/:name
+
+baseurl: /libraryproxify
